@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 #install zip on debian OS, since microsoft/dotnet container doesn't have zip by default
 if [ -f /etc/debian_version ]
